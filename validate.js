@@ -16,8 +16,8 @@ const swapimg = () => { //swaps position of img
     }
 }
 
+window.onload = swapimg;
 window.addEventListener('resize', swapimg);
-window.addEventListener('onload', swapimg);
 
 const validation = () => {
     text.classList.remove("validate");
